@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 250, 249);
+}
+
+input {
+    color: red;
+    margin-bottom: 1em;
+
+}
+
+input[type=text] {
+    height: 2em;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    /*appearance: none;*/
+}
+
+hr {
+    border: 1px dashed gray;
+}
+
+.header {
+
+    width: 100%;
+    /*height: 35vw;*/
+    left: 0;
+    top: 0;
+    /*margin: 0 auto;*/
+    text-align: center;
+
+}
+
+.header_title {
+
+    /*width: 100%;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*padding: .3em 0;*/
+    margin: 0 auto;
+    text-align: center;
+    line-height: 10vw;
+    color: rgb(253, 131, 100);
+    height: 10vw;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 25vw;
+}
+
+.banner .slogan {
+    /*display: inline-block;*/
+    color: white;
+    /*margin: 0 auto;*/
+    border: 3px solid white;
+    width: 70%;
+    text-align: center;
+
+}
+
+.banner .slogan span {
+    font-size: 14px;
+}
+
+#factory_info_collect {
+    /*margin-top: 35vw;*/
+}
+
+.baidu_map {
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.group {
+    padding: 0 8px;
+}
+
+.group .red_signn {
+    color: red;
+}
+
+.workshop_province_city {
+
+    width: 60%;
+}
+
+.workshop_detail_address {
+    width: 70%;
+}
+
+.workshop_btn_get_da {
+    height: 2.5em;
+    width: 20%;
+    border: none;
+    background-color: #0c84e4;
+    color: white;
+    border-radius: .5em;
+}
+
+.workshop_area,
+.office_area,
+.dormitory_area {
+    width: 20%;
+}
+
+.workshop_height,
+.workshop_long,
+.workshop_width,
+.number_of_people {
+    width: 15%;
+}
+
+.workshop_description {
+    width: 95%;
+}
+
+#f {}
+
+#images {
+    display: none;
+}
+
+.addImages {
+    display: inline-grid;
+    width: 80px;
+    height: 80px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px dashed darkgray;
+    background: #f8f8f8;
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+    /* margin: 10px;
+}
+
+.text-detail {
+    /*margin-top:10px;*/
+    text-align: center;
+}
+
+.text-detail P {
+    margin: -5px;
+}
+
+.text-detail span {
+    font-size: 42px;
+}
+
+.btn_upload {
+    /*display: inline-block;*/
+    width: 80px;
+    height: 80px;
+    color: gray;
+    border: 1px dashed darkgray;
+    margin: 0;
+
+}
+
+.btn_upload input[type=file] {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    margin: 0;
+    display: none;
+}
+
+.contacts_info {
+    text-align: center;
+}
+
+.contacts_info table {
+    width: 100%;
+}
+
+.contacts_info table td {
+    padding: 5px;
+}
+
+.contacts_info table td:first-child {
+    width: 25%;
+    text-align: right;
+
+}
+
+.contacts,
+.contact_number {
+    width: 90%;
+    margin: 0;
+}
+
+.submit {
+    width: 80%;
+    margin: 0 auto;
+    height: 3em;
+    color: white;
+    background-color: red;
+    border: none;
+    align-items: center;
+}
+
+/* 默认边框无颜色 */
+.default {
+    border: 1px solid transparent;
+}
+
+/* 校验不通过的元素添加红色边框 */
+.err_item {
+    border: 1px solid red;
+}
+
+
+/*图片预览*/
+.upload_img_preview {
+    display: inline-block;
+    position: relative;
+    width: 45%;
+    height: 200px;
+    overflow: hidden;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.upload_img_preview_el {
+    width: 100%;
+    border: 1px dotted gray;
+}
+
+.upload_img_preview_del {
+    position: absolute;
+    font-size: 1em;
+    right: 0;
+    top: 0;
+    color: red;
+    border: 1px solid red;
+    border-radius: .5em;
+}

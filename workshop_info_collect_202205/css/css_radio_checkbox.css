@@ -1,0 +1,85 @@
+.workshop_radio,
+.workshop_checkbox {
+    appearance: none;
+}
+
+.workshop_radio+label,
+.workshop_checkbox+label {
+    position: relative;
+    padding-left: 1.5em;
+    cursor: pointer;
+}
+
+.workshop_radio:checked+label:after,
+.workshop_checkbox:checked+label:after {
+    visibility: visible;
+}
+.workshop_radio:checked+label:after {
+    background-color: red;
+}
+.workshop_radio:checked+label:before {
+    border-color: red;
+}
+
+.workshop_radio+label:before,
+.workshop_radio+label:after,
+.workshop_checkbox+label:before,
+.workshop_checkbox+label:after {
+    position: absolute;
+    content: '';
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+}
+
+.workshop_radio+label:before,
+.workshop_checkbox+label:before {
+    width: 1em;
+    height: 1em;
+    border: 1px solid black;
+}
+
+
+.workshop_radio+label:before,
+.workshop_radio+label:after {
+    border-radius: 50%;
+    margin-top: .25em;
+}
+
+
+.workshop_radio+label:after {
+    visibility: hidden;
+    width: .6em;
+    height: .6em;
+    background-color: black;
+
+    top: .2em;
+    left: .2em;
+}
+
+.workshop_checkbox:checked+label:after,
+ .workshop_checkbox:checked+label:before{
+    border-color: red;
+}
+
+.workshop_checkbox+label:before,
+.workshop_checkbox+label:after {
+    margin-top: .2em;
+}
+
+.workshop_checkbox+label:before {
+    border-radius: .2em;
+}
+
+.workshop_checkbox+label:after {
+    visibility: hidden;
+    width: .4em;
+    height: .7em;
+    border: 2px solid black;
+    border-top: 0;
+    border-left: 0;
+    transform: rotate(30deg);
+    left: .3em;
+    top: .1em;
+
+}
